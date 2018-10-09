@@ -4,7 +4,7 @@ library(stringr)
 library(plyr)
 library(readr)
 
-setwd('C:\\Users\\x1\\Documents\\SYS 6018\\blog')
+setwd('C:\\Users\\x1\\Documents\\MSDS\\SYS 6018\\blog')
 train <- read_csv('.data\\train.csv')
 
 train$topic <- as.factor(train$topic)
